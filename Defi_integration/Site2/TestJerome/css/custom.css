@@ -24,7 +24,7 @@ margin-top: -5px;
 .grey1 {
 	text-align: center;
 
-	background-color: grey;
+	background-color: lightgrey;
 }
 
 .imagemiddle {
@@ -44,6 +44,9 @@ width:40%;
 	margin-top: 50px;
 }
 
+h2 {
+	margin-top: 0px;
+}
 
 #service {
 	width:200px;
@@ -55,13 +58,7 @@ p{
 	font-size: 16px;
 }
 
-.imageaboutuscontainer {
-	text-align: center;
-}
 
-.imageaboutus {
-	max-width: 550px;
-}
 
 .aboutustext {
 	margin-bottom: 40px;
@@ -101,11 +98,11 @@ p{
     background-color: #FAFAFA;
 	padding: 10px 40px 60px;
 	margin: 10px 0px 60px;
-	border: 1px solid GREY;
+	border: 1px solid grey;
 	}
 
 .grey2 {
-	background-color: grey;
+	background-color: lightgrey;
 }
 
 /* --------------------------- */
