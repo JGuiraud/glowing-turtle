@@ -1,0 +1,143 @@
+#myNavbar{
+float: right;
+}
+
+a:hover{
+border-bottom: solid white 3px;
+margin-top: -5px;
+}
+
+.wideimage{
+	background-image: url(../images/hero-image.jpg);
+	height: 600px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.logotop {
+	height: 30px;
+	width: auto;
+	margin-top: 10px;
+}
+
+
+.grey1 {
+	text-align: center;
+
+	background-color: grey;
+}
+
+.imagemiddle {
+display: block;
+margin: 150px auto;
+
+width:40%;
+}
+
+.colonne {
+	padding-left: 50px;
+	padding-right: 0px;
+	margin-bottom: 40px;
+}
+
+#service {
+	margin-top: 50px;
+}
+
+
+#service {
+	width:200px;
+	height:200px;
+	text-align: center;
+}
+
+p{
+	font-size: 16px;
+}
+
+.imageaboutuscontainer {
+	text-align: center;
+}
+
+.imageaboutus {
+	max-width: 550px;
+}
+
+.aboutustext {
+	margin-bottom: 40px;
+}
+
+.aboutus {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.about {
+	margin-bottom: 50px;	
+}
+
+#map {
+	width:400px;
+	height:250px;
+	background:yellow;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+
+}
+
+.form-area {
+	margin: 0 auto;
+	width: 350px;
+}
+
+.red{
+    color:red;
+    }
+
+.form-area
+{
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+	}
+
+.grey2 {
+	background-color: grey;
+}
+
+/* --------------------------- */
+
+
+/* col-lg- */
+@media (max-width: 2000px) {
+body {
+	font-size: 1.3em;
+}
+}
+
+
+/* col-md- */
+@media (max-width: 1199px) {
+body {
+	font-size: 1.2em;
+}
+}
+
+/* col-sm- */
+@media (max-width: 991px) {
+body {
+	font-size: 1em;
+}
+}
+
+/* col-xs- */
+@media (max-width: 767px) {
+body {
+	font-size: 0,9em;
+}
+
+}
+

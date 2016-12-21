@@ -1,0 +1,17 @@
+#myNavbar{
+
+float: right;
+
+}
+
+a:hover{
+
+border-bottom: solid white 3px;
+margin-top: -5px;
+}
+
+.wideimage{
+	background-image: url(../images/hero-image.jpg);
+	height:500px;
+
+}

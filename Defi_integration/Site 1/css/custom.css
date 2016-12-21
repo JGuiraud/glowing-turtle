@@ -1,0 +1,35 @@
+/* --- header --- */
+
+#imageheader {
+	width: 100px;
+	height: auto;
+	float:left;
+
+}
+
+
+
+#linktop {
+	list-style: none;
+	margin: 0;
+
+}
+
+#linktop li {
+	display: inline-flex;
+	float: right;
+	color: red;
+	margin: 40px;
+}
+
+body {
+	text-align: center;
+}
+
+#reseaux {
+	width: 30px;
+	height: auto;
+	float: right;
+	display: inline-flex;
+	margin-left: 10px;
+}
