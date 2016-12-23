@@ -1,17 +1,47 @@
+
+
+/* ---- Navigation ---- */
+
 #myNavbar{
-
 float: right;
-
 }
 
 a:hover{
-
 border-bottom: solid white 3px;
 margin-top: -5px;
 }
 
+.logotop {
+	height: 30px;
+	width: auto;
+	margin-top: 10px;
+}
+
+/* ---- Image centrale ---- */
+
 .wideimage{
 	background-image: url(../images/hero-image.jpg);
-	height:500px;
+	height: 600px;
+	max-width: 100%;
+	max-height: 100%;
+}
 
+.logomiddle {
+	display: block;
+	margin: 150px auto;
+	width:40%;
+}
+
+/* ---- Grey area 1 ---- */
+
+.grey1 {
+	text-align: center;
+	background-color: #BDBEC0;
+}
+
+#service {
+	width:200px;
+	height:200px;
+	text-align: center;
+	margin-top: 50px;
 }

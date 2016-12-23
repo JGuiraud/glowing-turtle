@@ -1,3 +1,7 @@
+
+
+/* ---- Navigation ---- */
+
 #myNavbar{
 float: right;
 }
@@ -7,6 +11,14 @@ border-bottom: solid white 3px;
 margin-top: -5px;
 }
 
+.logotop {
+	height: 30px;
+	width: auto;
+	margin-top: 10px;
+}
+
+/* ---- Image centrale ---- */
+
 .wideimage{
 	background-image: url(../images/hero-image.jpg);
 	height: 600px;
@@ -14,25 +26,27 @@ margin-top: -5px;
 	max-height: 100%;
 }
 
-.logotop {
-	height: 30px;
-	width: auto;
-	margin-top: 10px;
+.logomiddle {
+	display: block;
+	margin: 150px auto;
+	width:40%;
 }
 
+/* ---- Grey area 1 ---- */
 
 .grey1 {
 	text-align: center;
-
-	background-color: lightgrey;
+	background-color: #BDBEC0;
 }
 
-.imagemiddle {
-display: block;
-margin: 150px auto;
-
-width:40%;
+#service {
+	width:200px;
+	height:200px;
+	text-align: center;
+	margin-top: 50px;
 }
+
+/* ---- white area 1 ---- */
 
 .colonne {
 	padding-left: 50px;
@@ -40,25 +54,13 @@ width:40%;
 	margin-bottom: 40px;
 }
 
-#service {
-	margin-top: 50px;
-}
-
-h2 {
-	margin-top: 0px;
-}
-
-#service {
-	width:200px;
-	height:200px;
+.imageaboutuscontainer {
 	text-align: center;
 }
 
-p{
-	font-size: 16px;
+.imageaboutus {
+	max-width: 550px;
 }
-
-
 
 .aboutustext {
 	margin-bottom: 40px;
@@ -73,37 +75,57 @@ p{
 	margin-bottom: 50px;	
 }
 
+/* ---- Grey are 2 ---- */
+
+.grey2 {
+	background-color: #BDBEC0;
+}
+
+.contacttext {
+	padding-top: 35px;
+}
+
 #map {
 	width:400px;
 	height:250px;
-	background:yellow;
+	background:green;
 	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-
+	margin: 20px auto 20px auto;
 }
+
+/* ---- White Are 2 Contact Form ---- */
 
 .form-area {
-	margin: 0 auto;
-	width: 350px;
+
 }
 
-.red{
-    color:red;
-    }
 
 .form-area
 {
     background-color: #FAFAFA;
 	padding: 10px 40px 60px;
-	margin: 10px 0px 60px;
 	border: 1px solid grey;
+	margin: 0 auto;
+	width: 350px;
+	margin-top: 20px;
 	}
 
-.grey2 {
-	background-color: lightgrey;
+p{
+	font-size: 16px;
 }
+
+
+
+
+
+
+.red{
+    color:red;
+    }
+
+
+
+
 
 /* --------------------------- */
 
