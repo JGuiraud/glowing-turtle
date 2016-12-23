@@ -1,5 +1,9 @@
 
 
+p{
+	font-size: 16px;
+}
+
 /* ---- Navigation ---- */
 
 #myNavbar{
@@ -95,36 +99,33 @@ margin-top: -5px;
 
 /* ---- White Are 2 Contact Form ---- */
 
-.form-area {
-
-}
-
-
 .form-area
 {
-    background-color: #FAFAFA;
+    background-color: #fafafa;
 	padding: 10px 40px 60px;
-	border: 1px solid grey;
 	margin: 0 auto;
+	margin-bottom: 20px;
 	width: 350px;
 	margin-top: 20px;
 	}
 
-p{
-	font-size: 16px;
+
+
+/* ---- Footer ---- */
+
+.footer {
+	background-color: #BDBEC0
 }
 
+.colfooter {
+	margin: 90px 0 90px auto;
+}
 
-
-
-
-
-.red{
-    color:red;
-    }
-
-
-
+#reseaux {
+	width: 25px;
+	height: auto;
+	margin-left: 20px;
+}
 
 
 /* --------------------------- */
