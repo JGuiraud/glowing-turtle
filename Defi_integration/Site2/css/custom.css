@@ -45,3 +45,13 @@ margin-top: -5px;
 	text-align: center;
 	margin-top: 50px;
 }
+
+.colonne {
+	margin-bottom: 50px;
+}
+/* ---- White area 1 ----*/
+
+#imageaboutus {
+	width: 550px;
+	height: auto;
+}
