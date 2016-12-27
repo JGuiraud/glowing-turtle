@@ -54,4 +54,20 @@ margin-top: -5px;
 #imageaboutus {
 	width: 550px;
 	height: auto;
+	margin-top: 25px;
+}
+
+/* ------ Grey area 2 ---- */
+.grey2{
+	background-color: #BDBEC0;
+	padding-left: 80px;
+	margin-top: 70px;
+}
+
+.greensquare{
+	background-color: green;
+}
+
+.input-group{
+	padding-left : 500px
 }
